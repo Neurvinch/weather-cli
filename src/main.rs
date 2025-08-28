@@ -1,3 +1,7 @@
 fn main() {
-    println!("Hello, world!");
+    let api_token = std::env::var("API_TOKEN")
+    .expect("expected there to be an api token");
 }
+
+
+
