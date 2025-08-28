@@ -5,3 +5,8 @@ fn main() {
 
 
 
+  enum Result<THING_WE_WANT,ERROR_THATCOULD_HAPPEN>{
+    Ok(THING_WE_WANT),
+    Err(ERROR_THATCOULD_HAPPEN)
+  }
+
